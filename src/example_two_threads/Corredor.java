@@ -35,6 +35,7 @@ public class Corredor extends Thread {
     @Override
     public void run(){
         while(!meta){
+            
             if(distancia < total_distancia){
                 correr();
                 System.out.println(this.nombre+" va en el "+this.distancia+" mts.");
